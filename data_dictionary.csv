@@ -1,0 +1,10 @@
+column name,description
+interaction_id ,Id column 
+first_tweet_time ,Datetime that first tweet was sent 
+last_tweet_time ,Datetime that final tweet was sent 
+count_of_tweets_total ,Count of tweets included in the interaction 
+count_of_turns ,"The number of times the tweet author changed during the responses (e.g. when the reply is a different author than the prior tweet, the count of turns increments by 1) "
+interaction ,"The text of the interaction - follows the format of  
+author: tweet (line break) 
+author: tweet"
+resolved ,"A boolean of whether the tweet is resolved, per human annotation"
